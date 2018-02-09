@@ -9,7 +9,6 @@ router.get('/encrypt/:str', function(req, res){
 });
 
 router.get('/decrypt/:str', function(req, res){
-	//var normal = encrypter.decrypt('{"ct":"ZlnPiI0DKInb","mac":"ZflpSRJQKlC6eRCDhv8LYlDtyTc="}');
 	var normal = encrypter.decrypt(req.params.str);
     console.log(normal);
     res.send(normal);
