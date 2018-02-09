@@ -1,0 +1,23 @@
+{
+  "name": "encrypter",
+  "version": "1.0.0",
+  "description": "Encrypt / Decrypts a Source String",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericute/encrypter.git"
+  },
+  "author": "Eric Leron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericute/encrypter/issues"
+  },
+  "homepage": "https://github.com/ericute/encrypter#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "encrypter": "^1.0.0"
+  }
+}
